@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base MaterialComponents theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Tùy chỉnh màu nếu cần -->
+<!--        <item name="colorPrimary">@color/purple_500</item>-->
+        <item name="colorOnPrimary">@android:color/white</item>
+<!--        <item name="colorSecondary">@color/purple_200</item>-->
+        <item name="colorOnSecondary">@android:color/white</item>
+    </style>
+
+</resources>
