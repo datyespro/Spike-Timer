@@ -49,8 +49,7 @@ app/
 1. Clone repo:
 
    ```bash
-   git clone https://github.com/<your-username>/gospike.git
-   cd gospike
+   git clone https://github.com/datyespro/Spike-Timer.git
    ```
 2. Mở trong **Android Studio** (>= Arctic Fox).
 3. Cắm thiết bị Android (khuyến nghị Xiaomi 11T hoặc máy có CPU mạnh).
