@@ -1,5 +1,4 @@
-
-# 📱 Gỡ Spike – AI Camera App
+# 📱 SPIKE TIMER – AI Camera App
 
 > 🔥 Một ứng dụng Android sử dụng **CameraX + TensorFlow Lite (YOLOv8n)** để nhận diện “Spike” trong game Valorant và đếm ngược đến lúc phát nổ.
 > 👨‍💻 Project cá nhân của mình, tập trung vào xử lý ảnh thời gian thực, tối ưu latency và trải nghiệm người dùng.
@@ -13,14 +12,13 @@
 * 🔍 **Zoom camera mượt mà** với pinch-to-zoom.
 * 🎶 **Âm thanh cảnh báo & nổ Spike** bằng SoundPool low-latency.
 * ⚙️ **Cài đặt linh hoạt**: chỉnh thời gian đếm ngược và mốc thông báo.
-* 💾 **Lưu cấu hình** bằng SharedPreferences.
 
 ---
 
 ## 🛠️ Công nghệ sử dụng
 
 * **Android (Java/Kotlin)**: Activity, CameraX, Material Design.
-* **Machine Learning**: YOLOv8n → TFLite (`best_float16_no_nms_448.tflite`).
+* **Deep learning**: YOLOv8n → TFLite (`best_float16_no_nms_448.tflite`).
 * **Camera pipeline**: CameraX `ImageAnalysis` + OverlayView custom.
 * **Xử lý âm thanh**: SoundPool (PCM 16-bit WAV).
 * **Lưu trữ nhẹ**: SharedPreferences.
@@ -68,9 +66,8 @@ app/
    * Phát âm thanh ở mốc thông báo & khi nổ.
 3. **Bấm “Cài đặt”** → Màn hình settings (`SettingsActivity`).
 
-   * Nhập thời gian countdown.
-   * Nhập mốc notification.
-   * Lưu lại bằng SharedPreferences.
+   * Nhập thời gian đếm ngược.
+   * Nhập mốc thông báo thời điểmn.
 
 ---
 
@@ -85,21 +82,19 @@ app/
 
 ## 🔮 Hướng phát triển tiếp theo
 
-* ⏳ Scheduler tuyệt đối cho audio (đồng bộ tốt hơn).
+* ⏳ Nâng cấp model khác nhẹ hơn để có thể tăng FPS và cho máy yếu.
 * 🛡️ Guard window quanh T₀ để tránh nghẽn.
 * 📉 Giảm độ phân giải phân tích xuống 1280×720 để giảm latency.
-* ⚡ Xem xét bật lại NNAPI nếu ổn định.
+* ⚡ Xem xét bật lại NNAPI hoặc GPU nếu tương thích và  ổn định.
 
 ---
 
 ## 👨‍🎓 Về project
 
-Đây là project mình thực hiện với tư cách **AI Intern** nhằm:
+Đây là project mình thực hiện nhằm:
 
 * Hiểu quy trình **triển khai model ML lên Android**.
 * Làm quen với **CameraX, TFLite, SoundPool** và xử lý realtime.
 * Nâng cao kỹ năng **tối ưu hiệu năng & latency** trong ứng dụng AI.
 
----
 
-👉 Bạn có muốn mình viết luôn cho bạn **file README.md hoàn chỉnh** (Markdown chuẩn GitHub, có badges + ảnh minh họa chỗ để screenshot/video demo) để bạn chỉ việc copy vào repo không?
