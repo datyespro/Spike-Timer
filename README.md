@@ -22,7 +22,6 @@
 * **Deep learning**: YOLOv8n → TFLite (`best_float16_no_nms_448.tflite`).
 * **Camera pipeline**: CameraX `ImageAnalysis` + OverlayView custom.
 * **Xử lý âm thanh**: SoundPool (PCM 16-bit WAV).
-* **Lưu trữ nhẹ**: SharedPreferences.
 
 ---
 
