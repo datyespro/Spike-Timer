@@ -2,7 +2,7 @@
 
 > 🔥 Một ứng dụng Android sử dụng **CameraX + TensorFlow Lite (YOLOv8n)** để nhận diện “Spike” trong game Valorant và đếm ngược đến lúc phát nổ.
 
-> 👨‍💻 Project cá nhân của mình, tập trung vào xử lý ảnh thời gian thực, tối ưu latency và trải nghiệm người dùng.
+> 👨‍💻 Project cá nhân của mình, tập trung vào xử lý ảnh thời gian thực, tối ưu độ trễ (latency) và trải nghiệm người dùng.
 
 ---
 
